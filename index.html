@@ -1,37 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .hero{
-            width: 100%;
-            height: 90vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .hero h1{
-           animation: text 4s;
-           font-size: 50px;
-           color: blueviolet;
-        }
-        @keyframes text{
-            from{
-                letter-spacing: 20px;
-                filter: blur(16px);
-            }
-            to{
-                letter-spacing: 0;
-                filter: blur(0);
-            }
-        }
-    </style>
-</head>
-<body>
-    <div class="hero">
-        <h1>MD Tanzid Anan</h1>
-    </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
