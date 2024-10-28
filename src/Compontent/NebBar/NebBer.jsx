@@ -1,6 +1,10 @@
+import { useState } from "react";
 import Link from "../Link/Link";
+import { TiThMenu } from "react-icons/ti";
+
 
 const NebBer = () => {
+    const [open,setOpen] =useState(false)
 
     const routes = [
         { id: 1, path: "/", name: "Home" },
@@ -12,6 +16,12 @@ const NebBer = () => {
 
     return (
         <nav>
+            <div onClick={() => setOpen(!open)}>
+                {
+                    open===true?'Tanzi':'anan'
+                }
+            <TiThMenu className="md:hidden"></TiThMenu>
+            </div>
             <ul className="md:flex justify-end bg-slate-500 px-6 py-3">
                 {
                     routes.map(route => <Link key={route.id}
