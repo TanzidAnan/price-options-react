@@ -1,5 +1,7 @@
 /* eslint-disable react/prop-types */
 
+import Frature from "../Frature/Frature";
+
 
 
 const PriceOption = ({ option }) => {
@@ -15,7 +17,7 @@ const PriceOption = ({ option }) => {
             <h1 className="text-3xl mt-4">{name}</h1>
             <div className="flex-grow">
                 {
-                    features.map((feature,idx) => <li key={idx} className="text-start mt-2">{feature}</li>)
+                    features.map((feature,idx) => <Frature key={idx} feature={feature}></Frature>)
                 }
             </div>
             <button className="bg-red-100 block px-4 py-3 hover:bg-orange-500">Add </button>
