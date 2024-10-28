@@ -1,3 +1,4 @@
+import Link from "../Link/Link";
 
 const NebBer = () => {
 
@@ -11,10 +12,11 @@ const NebBer = () => {
 
     return (
         <nav>
-            <ul className="md:flex">
+            <ul className="md:flex justify-end bg-slate-500 px-6 py-3">
                 {
-                    routes.map(route => <li key={route.id}><a href={`${route.path}`}
-                    >{route.name}</a></li>)
+                    routes.map(route => <Link key={route.id}
+                    route={route}
+                    ></Link>)
                 }
             </ul>
         </nav>
