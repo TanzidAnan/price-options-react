@@ -20,7 +20,7 @@ const PriceOption = ({ option }) => {
                     features.map((feature,idx) => <Frature key={idx} feature={feature}></Frature>)
                 }
             </div>
-            <button className="bg-red-100 block px-4 py-3 hover:bg-orange-500">Add </button>
+            <button className="bg-red-100 text-black font-extrabold block px-4 py-3 hover:bg-orange-500 rounded-xl">Click Add More</button>
         </div>
     );
 };
