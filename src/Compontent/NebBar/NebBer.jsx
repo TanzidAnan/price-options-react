@@ -17,14 +17,14 @@ const NebBer = () => {
 
     return (
         <nav className="p-6 bg-slate-500">
-            <div className="md:hidden bg-zinc-500 text-3xl" onClick={() => setOpen(!open)}>
+            <div className="md:hidden bg-zinc-500 py-2 text-3xl" onClick={() => setOpen(!open)}>
                 {
                     open===true?<IoClose />:<TiThMenu className=""></TiThMenu>
                 }
             
             </div>
             <ul className={`md:flex duration-1000 justify-end bg-slate-500
-                ${open? 'top-14':'-top-40'}
+                ${open? 'top-14':'-top-96'}
                 px-6 py-3 absolute md:static`}>
                 {
                     routes.map(route => <Link key={route.id}
