@@ -1,28 +1,24 @@
 /* eslint-disable react/prop-types */
-import Frature from "../Frature/Frature";
+
 
 
 const PriceOption = ({ option }) => {
     const { name, price, features } = option;
     console.log(option)
     return (
-        <div className="bg-violet-300 text-center py-7  rounded-lg shadow-lg px-5">
-            <div className="flex flex-col">
-                <h2 className="text-white">
-                    <span className="text-4xl font-extrabold">{price}</span>
-                    <span className="text-2xl font-semibold">/mon</span>
-                </h2>
-                <p className="text-2xl font-bold mt-2 text-white">{name}</p>
-                <div className="flex-wrap">
-                    {
-                        features.map((feature, idx) => <Frature key={idx} feature={feature}></Frature>)
-                    }
-                </div>
+        <div className="bg-red-300 text-black flex flex-col rounded-xl p-4 text-center">
 
-                <div>
-                    <button className="btn bg-teal-200  block w-full">Click Now</button>
-                </div>
+            <h2 className="text-center">
+                <span className="text-5xl font-extrabold ">{price}</span>
+                <span className="text-2xl ">/mon</span>
+            </h2>
+            <h1 className="text-3xl mt-4">{name}</h1>
+            <div className="flex-grow">
+                {
+                    features.map((feature,idx) => <li key={idx} className="text-start mt-2">{feature}</li>)
+                }
             </div>
+            <button className="bg-green-600 block px-4 py-3 hover:bg-orange-500">Add </button>
         </div>
     );
 };
