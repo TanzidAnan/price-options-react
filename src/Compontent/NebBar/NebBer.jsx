@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Link from "../Link/Link";
 import { TiThMenu } from "react-icons/ti";
+import { IoClose } from "react-icons/io5";
 
 
 const NebBer = () => {
@@ -15,14 +16,16 @@ const NebBer = () => {
     ];
 
     return (
-        <nav>
-            <div onClick={() => setOpen(!open)}>
+        <nav className="p-6 bg-slate-500">
+            <div className="md:hidden bg-zinc-500 text-3xl" onClick={() => setOpen(!open)}>
                 {
-                    open===true?'Tanzi':'anan'
+                    open===true?<IoClose />:<TiThMenu className=""></TiThMenu>
                 }
-            <TiThMenu className="md:hidden"></TiThMenu>
+            
             </div>
-            <ul className="md:flex justify-end bg-slate-500 px-6 py-3">
+            <ul className={`md:flex duration-1000 justify-end bg-slate-500
+                ${open? 'top-14':'-top-40'}
+                px-6 py-3 absolute md:static`}>
                 {
                     routes.map(route => <Link key={route.id}
                     route={route}
