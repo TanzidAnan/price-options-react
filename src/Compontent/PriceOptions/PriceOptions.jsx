@@ -68,7 +68,7 @@ const PriceOptions = () => {
     ]
 
     return (
-        <div className="w-10/12 mx-auto">
+        <div className="w-10/12 mx-auto mb-9">
             <h2 className="text-2xl text-red-400 my-3 font-extrabold">Price Option</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-5 px-5 ">
                 {

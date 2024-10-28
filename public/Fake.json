@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "name": "virat kohli",
+        "country": "india",
+        "img": "https://i.ibb.co.com/6Nb2dxL/109093664.webp",
+        "role": "batsman",
+        "batting_type": "right-hand bat",
+        "bowling_type": "right-arm medium",
+        "bidding_price": 2400000
+    },
+    {
+        "id": 2,
+        "name": "steve smith",
+        "country": "australia",
+        "img": "https://i.ibb.co.com/n1hf161/images-2.jpg",
+        "role": "batsman",
+        "batting_type": "right-hand bat",
+        "bowling_type": "right-arm leg spin",
+        "bidding_price": 2000000
+    },
+    {
+        "id": 3,
+        "name": "kane williamson",
+        "country": "new zealand",
+        "img": "https://i.ibb.co.com/j3Pb0yk/921427-1096461537033825-7425499789595944585-o.jpg",
+        "role": "batsman",
+        "batting_type": "right-hand bat",
+        "bowling_type": "right-arm offbreak",
+        "bidding_price": 1500000
+    },
+    {
+        "id": 4,
+        "name": "ben stokes",
+        "country": "england",
+        "img": "https://i.ibb.co.com/cc2Nq8L/12646838-10153160227460194-73794309990152501-o.jpg",
+        "role": "all-rounder",
+        "batting_type": "left-hand bat",
+        "bowling_type": "right-arm fast medium",
+        "bidding_price": 2800000
+    },
+    {
+        "id": 5,
+        "name": "jasprit bumrah",
+        "country": "india",
+        "img": "https://i.ibb.co.com/TYsjqX3/45281079-10156957367954314-8844652648306049024-n.jpg",
+        "role": "bowler",
+        "batting_type": "right-hand bat",
+        "bowling_type": "right-arm fast",
+        "bidding_price": 1600000
+    },
+    {
+        "id": 6,
+        "name": "rashid khan",
+        "country": "afghanistan",
+        "img": "https://i.ibb.co.com/HVKZ533/29511539-1886631578038241-5901575378496709760-n.jpg",
+        "role": "bowler",
+        "batting_type": "right-hand bat",
+        "bowling_type": "right-arm leg spin",
+        "bidding_price": 1900000
+    },
+    {
+        "id": 7,
+        "name": "andre russell",
+        "country": "west indies",
+        "img": "https://i.ibb.co.com/71H8gsc/454580388-1076150023866608-8213374812711889046-n.jpg",
+        "role": "all-rounder",
+        "batting_type": "right-hand bat",
+        "bowling_type": "right-arm fast",
+        "bidding_price": 2200000
+    },
+    {
+        "id": 8,
+        "name": "babar azam",
+        "country": "pakistan",
+        "img": "https://i.ibb.co.com/wJCWzkL/455165850-919183220240112-115585826742370748-n.jpg",
+        "role": "batsman",
+        "batting_type": "right-hand bat",
+        "bowling_type": "right-arm offbreak",
+        "bidding_price": 1700000
+    },
+    {
+        "id": 9,
+        "name": "quinton de kock",
+        "country": "south africa",
+        "img": "https://i.ibb.co.com/Rys65kz/65969121-2237549502998488-6134520570768785408-n.jpg",
+        "role": "wicketkeeper",
+        "batting_type": "left-hand bat",
+        "bowling_type": "n/a",
+        "bidding_price": 1800000
+    },
+    {
+        "id": 10,
+        "name": "mitchell starc",
+        "country": "australia",
+        "img": "https://i.ibb.co.com/GC99J6V/458487405-3416545061979301-395764411046237315-n.jpg",
+        "role": "bowler",
+        "batting_type": "left-hand bat",
+        "bowling_type": "left-arm fast",
+        "bidding_price": 1900000
+    }
+]

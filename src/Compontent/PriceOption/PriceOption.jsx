@@ -6,7 +6,6 @@ import Frature from "../Frature/Frature";
 
 const PriceOption = ({ option }) => {
     const { name, price, features } = option;
-    console.log(option)
     return (
         <div className="bg-zinc-800 text-white flex flex-col rounded-xl p-4 text-center">
 
