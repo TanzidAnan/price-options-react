@@ -16,7 +16,7 @@ const Player = ({ data }) => {
                     <h2 className="card-title">{name}</h2>
                     <p>{role}</p>
                     <div className="card-actions justify-end">
-                        <button className="btn bg-red-300 text-lg">$ {bidding_price}</button>
+                        <button className="btn bg-gray-300 text-lg">$ {bidding_price}</button>
                     </div>
                 </div>
             </div>
