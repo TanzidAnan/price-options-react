@@ -6,7 +6,7 @@ const PriceOption = ({ option }) => {
     const { name, price, features } = option;
     console.log(option)
     return (
-        <div className="bg-red-300 text-black flex flex-col rounded-xl p-4 text-center">
+        <div className="bg-zinc-400 text-black flex flex-col rounded-xl p-4 text-center">
 
             <h2 className="text-center">
                 <span className="text-5xl font-extrabold ">{price}</span>
@@ -18,7 +18,7 @@ const PriceOption = ({ option }) => {
                     features.map((feature,idx) => <li key={idx} className="text-start mt-2">{feature}</li>)
                 }
             </div>
-            <button className="bg-green-600 block px-4 py-3 hover:bg-orange-500">Add </button>
+            <button className="bg-red-100 block px-4 py-3 hover:bg-orange-500">Add </button>
         </div>
     );
 };
